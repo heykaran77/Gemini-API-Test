@@ -23,6 +23,6 @@ model = genai.GenerativeModel(
 chat_session = model.start_chat(history=[])
 
 response = chat_session.send_message(
-    "give me a letter with reason for a holiday of 5 days to Mumbai")
+    "give me a letter with reason for a holiday of 5 days to Mumbai!")
 
 print(response.text)
