@@ -9,5 +9,5 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-response = model.generate_content("Give me 5 names for my second hand luxury cars brand")
+response = model.generate_content("Give me 10 names for my second hand luxury cars brand")
 print(response.text)
